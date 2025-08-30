@@ -1,0 +1,51 @@
+# Ignorar arquivos Python compilados e cache
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+
+# Arquivos temporários de editor
+*.swp
+*.swo
+
+# Arquivos de ambiente
+.env
+
+# Pasta de ambiente virtual Python
+odoo-venv/
+venv/
+.env/
+.Python
+
+# Dependências do Node.js
+node_modules/
+
+# Pastas e arquivos do Odoo core
+odoo/
+addons/
+debian/
+doc/
+setup/
+
+# Arquivos e pastas do sistema
+.DS_Store
+*.bak
+*.zip
+*.tar.gz
+
+# Pastas de dados e sessões
+filestore/
+sessions/
+
+# IDEs e configurações de editor
+.idea/
+.vscode/
+
+# Outros arquivos desnecessários
+*.egg-info/
+*.pid
+*.db
+*.sqlite3
+*.pyo
+*.pyd
